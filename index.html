@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ca2ca4e33d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Sagark.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End-WebDeveloper</p>
+                <h1>Hi, I'm <span>Sagar</span> <br>Kamble From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Star-about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/me.png">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am a Fresher Web Developer. I recently completed a web development course from WsCube Tech, which has given me the latest skills and knowledge in the web development industry. I also make Clone Ecommerce Website, where I learned practical skills in building websites for clients.<br>
+
+                    <br> My focus is on designing and developing websites that look great and work well. I am skilled in a range of programming languages and platforms, including HTML, CSS, JavaScript, PHP, and WordPress. <br>
+
+                   <br> I enjoy working with other web developers and designers to make websites that match the client's brand and business objectives. I am committed to keeping up with the latest industry trends and best practices, and I attend professional web development courses to improve my skills. <br>
+                    
+                   <br> My goal is to create websites that are both visually appealing and easy to use. I take pride in exceeding client expectations and delivering projects on time. If you are looking for a web developer with skills and experience, please feel free to get in touch with me.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('project')">Project</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front -End -WebDeveloper</span><br>Developing Wesite /Designing Wesite</li>
+                        <li><span>Graphic Designer</span><br>Logo Designing /Youtube Thumbnail</li>
+                        <li><span>Typing</span><br>English-Typing /Marathi-Typing</li>
+                        <li><span>Communication Skills</span><br>English Proficiency (Written) /English Proficiency (Spoken)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="project">
+                    <ul>
+                        <li><span>Amazon Website Clone :</span><br>Technology Used: HTML, CSS <br>Description: This is a clone project of the Amazon website created as part of my learning process.
+                        The project aims to replicate the user interface and basic functionalities of the Amazon website using HTML and CSS.</li>
+                        <li><span>Spotify Website Clone :</span><br>Technology Used: HTML, CSS, JavaScript<br>Description: This is a clone of the Spotify website created as a project using HTML, CSS, and JavaScript.</li>
+                        <li><span>College website Development :</span><br>Technology Used: HTML, CSS , JavaScript <br>Description: This Web site designed using HTML, CSS and JAVASCRIPT. Basically, useful for getting information of College.
+                        </li>
+                        <li><span>City website Development :</span><br>Technology Used: HTML, CSS, JavaScript <br>Description: This Web site designed using HTML, CSS and JAVASCRIPT. Basically, useful for getting information of City.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>(Jul ‘19 – Sep’22)</span><br> B.sc ( Computer Science) | Shivaji University Kolhapur | CGPA: 8.5</li>
+                        <li><span>(May’19)</span><br> XII (Science) | Maharashtra State Board Pune | Mark: 58.62%</li>
+                        <li><span>(Jun’17)</span><br> X (SSC) | Maharashtra State Board Pune | Mark: 79.80%</li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+<!-- Services -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p> Hi, I'm a front-end-web developer. I am also familiar with using Debases like SQL and MySQL. The websites I build are primarily hand-coded using HTML5, CSS3, and JavaScript.<br>
+                    
+                <br> With an emphasis on "progressive enhancement",I find creative ways to push the boundaries of website front-end code without compromising browser support and performance.</p>
+
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-image"></i>
+                <h2>Graphic Design</h2>
+                <p> I will design canvas templates for your social media posts, logo within 1 hour. Also, I will design any Social Media posts  professionally.<br>
+
+                <br> We are Expert in: Social Media Kit, Facebook post template, Instagram post template, Instagram story, YouTube thumbnail Template, YouTube Logo, eBook cover.</p>
+
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-pen-to-square"></i>
+                <h2>Content Writing</h2>
+                <p> I will write social media captions and posts as your copywriter. How your brand communicates is incredibly important for your posts' number of likes, comments, and overall engagement.<br>
+                    
+                <br> I can help you take your online presence to the next level and improve engagement with clever and engaging content. We are Expert in: Facebook posts, LinkedIn posts, Instagram posts, social media bios.</p>
+
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- Portfolio -->
+  <div id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/Ip1.png">
+            <div class="layer">
+                <h3>Graphic Design</h3>
+                <p>Mayank Yadav clocks 156.7 kph, breaks his own record in IPL 2024.
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/GR2.png">
+            <div class="layer">
+                <h3>Graphic Design2</h3>
+                <p>Weather information in Maharashtra</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/GR3.png">
+            <div class="layer">
+                <h3>Graphic Design3</h3>
+                <p>Rashmika Mandanna Birthday Post</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- Contact -->
+  <div id="contact">
+   <div class="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me </h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i> officialsagarkamble07@gmail.com </p>
+            <p><i class="fa-solid fa-square-phone"></i>+91 9075318763 </p>
+            <div class="social-icons">
+
+            <a href="https://www.linkedin.com/in/sagarkamble07/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/SagarMukundKamble07"><i class="fa-brands fa-github"></i></a>
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="images/Sagarkresume.pdf" download class="btn btn2">Download Resume
+        </a>
+    </div>
+    <div class="contact-right">
+       <form name="submit-to-google-sheet">
+           <input type="text" name="Name" placeholder="Your Name" required>
+           <input type="email" name="Email" placeholder="Your Email" required>
+           <textarea name="Messagae" rows="6" placeholder="Your Messagae"></textarea>
+           <button type="submit" class="btn btn2">Submit</button>
+       </form>
+       <span id="msg"></span>
+    </div>
+</div>
+</div>
+   <div class="copyright">
+    <p> Copyright © Sagark. Made with by sagarkamble.com 2024 </p>
+   </div>
+   </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+  
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+     sidemenu.style.right = "0";
+  }
+  function closemenu(){
+     sidemenu.style.right = "-200px";
+  }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwe5oOYTJsm_zIki8rINZXsCuV6glhqh-ICFp-wtB5urYkf8EVCYpH-wPqFkrpRJhpD/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
