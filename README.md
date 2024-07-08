@@ -34,3 +34,9 @@ This is a personal portfolio website created to showcase my skills, projects, an
 To view the website locally, follow these steps:
 Go to google and type https://imsagar.netlify.app/ website will open in your device.
 
+# **Contributing**
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. Before contributing, please read the Contributing Guidelines.
+
+# **License**
+This project is licensed under the MIT License.
+
