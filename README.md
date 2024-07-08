@@ -40,3 +40,8 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 # **License**
 This project is licensed under the MIT License.
 
+## Contact
+
+`[Sagar Mukund Kamble]`, `[officialsagarkamble07@gmail.com]`, `[https://www.linkedin.com/in/sagar-kamble-25908b260/]` , `[https://imsagar.netlify.app/]`.
+
+
